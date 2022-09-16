@@ -1,6 +1,6 @@
 package cn.ofpp;
 
-
+import cn.ofpp.core.BoyFriend;
 import cn.ofpp.core.GirlFriend;
 import cn.ofpp.core.MessageFactory;
 import cn.ofpp.core.Wx;
@@ -29,10 +29,11 @@ public class Application {
 
         // new 一个 女友
         GirlFriend girlFriend = new GirlFriend("叶雪梅",
-                "云南省", "盈江县", "2000-12-13",  "oL8Ld6qGlbNQ0DVcHPaNxct8J8Wo");
+                "云南省", "盈江县", "2000-12-13", "不知道", "oL8Ld6qGlbNQ0DVcHPaNxct8J8Wo");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         
+ 
     }
 
 }
