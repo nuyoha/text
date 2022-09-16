@@ -28,8 +28,8 @@ public class Application {
         // -----------------  以下为演示数据  ------------------------
 
         // new 一个 女友
-        GirlFriend girlFriend = new GirlFriend("大宝贝邱开萍",
-                "云南省", "呈贡区", "2000-11-29", "2022-06-11", "oL8Ld6h50-mmaLfk5oaEY10aZkH0");
+        GirlFriend girlFriend = new GirlFriend("叶雪梅",
+                "云南省", "盈江县", "2000-12-13", "oL8Ld6qGlbNQ0DVcHPaNxct8J8Wo");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
 
         
